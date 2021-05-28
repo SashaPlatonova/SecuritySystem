@@ -111,8 +111,8 @@ def toggle(message):
                         time.sleep(1)#bot.send_message(message.chat.id, 'Фоток нет')
                     
         except:
-            bot.send_message(message.chat.id, 'Ошибка смены режима')
-            print(str(datetime.datetime.now()) + ' ' + "Ошибка смены режима")
+            bot.send_message(message.chat.id, 'Mode change error')
+            print(str(datetime.datetime.now()) + ' ' + "Mode change error")
         menu(message)
 
 if __name__ == '__main__':
