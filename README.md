@@ -23,7 +23,7 @@ Firstly you should install _Raspberry Pi OS_ with desktop and recommended softwa
 In the process, the program saves the last face that it recognized in the file _image.jpg_. It saves the last recognized name to the file _name.txt_.
 
 ### Working with a bot
-_**You should create a new TG-bot with @BotFather.**_
+You should create a new TG-bot with @BotFather.
 The _config.py_ file contains the basic settings: token and user id. Add your id and bot token there.
 The bot will write to you when it starts.
 There are two modes of operation: _**"Update", "Security"**_
