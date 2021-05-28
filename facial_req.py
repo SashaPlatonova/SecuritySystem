@@ -9,7 +9,7 @@ import pickle
 import time
 import cv2
 
-#Initialize 'currentname' to trigger only when a new person is identified.
+
 currentname = "unknown"
 #Determine faces from encodings.pickle file model created from train_model.py
 encodingsP = "encodings.pickle"
@@ -28,7 +28,7 @@ vs = VideoStream(src=0).start()
 #vs = VideoStream(usePiCamera=True).start()
 time.sleep(2.0)
 
-# start the FPS counter
+
 fps = FPS().start()
 
 # loop over frames from the video file stream
