@@ -1,4 +1,8 @@
-# SecuritySystem with Telegram Bot
+# Security system with Telegram Bot
+
+## What is it?
+Using this code, you can create a home security system to detect strangers. The program reads a video stream from a USB camera and in the "Security" mode, when a person is detected, a message is sent with a photo and the name of this person, if it is recorded in your database.
+
 ## Components:
 Raspberry pi 4, Intel Neuro Stick, USB camera, SD card + micro sd, HDMI
 
@@ -20,5 +24,5 @@ _**You should create a new TG-bot with @BotFather.**_
 The config.py file contains the basic settings: token and user id. Add your id and bot token there.
 The bot will write to you when it starts.
 There are two modes of operation: _**"Update", "Security"**_
-1. "Update" mode sends you the last recognized face after pressing
-2. The "Security" mode works without your participation until it is disabled. When a person is detected, a message is sent to you
+1. "Update" mode sends you the last recognized face after pressing.
+2. The "Security" mode works without your participation until it is disabled. When a person is detected, a message is sent to you.
