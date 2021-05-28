@@ -9,7 +9,7 @@ Raspberry Pi 4, Intel Neuro Stick, USB camera, SD card + micro sd, HDMI.
 ### First steps:
 Firstly you should install _Raspberry Pi OS_ with desktop and recommended software by using SD card and _balenaEther_ - application for burning ISO, ZIP and other images to removable media, including SD cards. Then install _Open CV, face-recognition and imutils_. Links:
 1. _RPi OS_: https://www.raspberrypi.org/software/operating-systems/
-2. _dalenaEtcher_: https://www.balena.io/etcher/
+2. _balenaEtcher_: https://www.balena.io/etcher/
 3. _Open CV_: https://software.intel.com/content/www/us/en/develop/..
 4. _face-recognition_: https://pypi.org/project/face-recognition/
 5. _imutils_: https://pypi.org/project/imutils/
