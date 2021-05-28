@@ -8,7 +8,6 @@ import pickle
 import cv2
 import os
 
-# our images are located in the dataset folder
 print("[INFO] start processing faces...")
 imagePaths = list(paths.list_images("dataset"))
 
@@ -44,7 +43,7 @@ for (i, imagePath) in enumerate(imagePaths):
 		knownNames.append(name)
 
 # dump the facial encodings + names to disk
-print("[INFO] serializing encodings...")
+print("[INFO] serializing encodings is going")
 data = {"encodings": knownEncodings, "names": knownNames}
 f = open("encodings.pickle", "wb")
 f.write(pickle.dumps(data))
