@@ -32,4 +32,4 @@ There are two modes of operation: _**"Update", "Security"**_
 2. The "Security" mode works without your participation until it is disabled. When a person is detected, a message is sent to you.
 
 ## To get started, run:
-_**facial_req.py (for face recognition)**_ and _**a.out (for TG bot)**_
+_**facial_req_bot.py (for face recognition)**_ and _**a.out (for TG bot)**_
